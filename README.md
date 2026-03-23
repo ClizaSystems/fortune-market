@@ -1,6 +1,6 @@
 ## Quick Start
 
-Using Cursor, Codex or Claude Code?
+Using Cursor, Codex, Claude Code or OpenClaw?
 
 ```bash
 git pull https://github.com/ClizaSystems/fortune-market and launch a market
@@ -49,7 +49,7 @@ If the crowd is wrong, winners inherit more of the market's flow. If the crowd i
 - Winning-pool USDC fees go entirely to the prize pool.
 - Losing-pool USDC fees split 50/50 between the protocol treasury and the prize pool.
 - Outcome-token fees are burned.
-- The payoff shape is designed to reward being right against flow, not just being right early.
+- The payoff shape is designed to reward being right against flow.
 
 In this repo, the hook is deliberately narrow: only registered market contracts can manage liquidity, ticks are locked to the registered bounds, and swaps are frozen immediately after resolution. The platform does not need to act like a standing market operator just to keep execution working.
 
