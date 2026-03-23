@@ -1,3 +1,11 @@
+## Quick Start
+
+Using Cursor, Codex or Claude Code?
+
+```bash
+git pull https://github.com/ClizaSystems/fortune-market and launch a market for me
+```
+
 <p align="center">
   <img src="docs/fortune-market.png" alt="Fortune Market" width="1200" />
 </p>
