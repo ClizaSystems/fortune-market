@@ -1,0 +1,445 @@
+<svg width="1440" height="1286" viewBox="0 0 1440 1286" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1440" height="1286" rx="28" fill="#F7F2EA"/>
+  <rect x="28" y="28" width="1384" height="1230" rx="26" fill="#FCFAF5" stroke="#E7E0D4"/>
+
+  <text x="56" y="84" fill="#111827" font-size="31" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">
+    Fortune Market vs Traditional Prediction Market
+  </text>
+  <text x="56" y="116" fill="#92400E" font-size="18" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">
+    Convex payouts can turn being right against the crowd into materially larger upside.
+  </text>
+  <text x="56" y="146" fill="#6B7280" font-size="16" font-weight="400" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">
+    Twelve scenarios, each aggregating 128 random market simulations with 2,000 timed and sized bets per market.
+  </text>
+  <text x="56" y="174" fill="#6B7280" font-size="14" font-weight="400" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">
+    Bars show median simulated winner returns on a shared scale across all cards so heights remain comparable.
+  </text>
+  <text x="56" y="198" fill="#6B7280" font-size="14" font-weight="400" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">
+    The delta pill shows median winner profit uplift versus traditional, so entry timing now affects the comparison.
+  </text>
+
+  
+      <g data-scenario="low-volume__high-liquidity__winner">
+        <rect x="56" y="224" width="314" height="310" rx="24" fill="#FFFDF8" stroke="#E7E0D4"/>
+        
+    <g>
+      <rect x="80" y="252" width="85" height="26" rx="13" fill="#F3F4F6"/>
+      <text x="92" y="269" fill="#475569" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">low volume</text>
+    </g>
+  
+        
+    <g>
+      <rect x="182" y="252" width="113.39999999999999" height="26" rx="13" fill="#DCFCE7"/>
+      <text x="194" y="269" fill="#166534" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">high liquidity</text>
+    </g>
+  
+        
+    <g>
+      <rect x="80" y="286" width="134.7" height="26" rx="13" fill="#FEF3C7"/>
+      <text x="92" y="303" fill="#92400E" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">crowded on winner</text>
+    </g>
+  
+
+        <rect x="130" y="401.61676191785017" width="58" height="54.38323808214982" rx="16" fill="#2563EB"/>
+        <rect x="248" y="404.5608234587908" width="58" height="51.439176541209186" rx="16" fill="#B45309"/>
+
+        <text x="129" y="391.61676191785017" fill="#1D4ED8" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.60x</text>
+        <text x="247" y="394.5608234587908" fill="#B45309" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.51x</text>
+
+        <text x="124" y="480" fill="#1D4ED8" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Traditional</text>
+        <text x="250" y="480" fill="#B45309" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Fortune</text>
+
+        <rect x="133.55" y="502" width="158.9" height="26" rx="13" fill="#FFF7ED"/>
+        <text x="213" y="519" text-anchor="middle" fill="#9A3412" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">-14% profit vs trad</text>
+      </g>
+    
+
+      <g data-scenario="low-volume__low-liquidity__winner">
+        <rect x="394" y="224" width="314" height="310" rx="24" fill="#FFFDF8" stroke="#E7E0D4"/>
+        
+    <g>
+      <rect x="418" y="252" width="85" height="26" rx="13" fill="#F3F4F6"/>
+      <text x="430" y="269" fill="#475569" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">low volume</text>
+    </g>
+  
+        
+    <g>
+      <rect x="520" y="252" width="106.3" height="26" rx="13" fill="#FFF7ED"/>
+      <text x="532" y="269" fill="#C2410C" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">low liquidity</text>
+    </g>
+  
+        
+    <g>
+      <rect x="418" y="286" width="134.7" height="26" rx="13" fill="#FEF3C7"/>
+      <text x="430" y="303" fill="#92400E" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">crowded on winner</text>
+    </g>
+  
+
+        <rect x="468" y="407.6279898853937" width="58" height="48.37201011460631" rx="16" fill="#2563EB"/>
+        <rect x="586" y="408.9997513890867" width="58" height="47.000248610913275" rx="16" fill="#B45309"/>
+
+        <text x="467" y="397.6279898853937" fill="#1D4ED8" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.42x</text>
+        <text x="585" y="398.9997513890867" fill="#B45309" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.38x</text>
+
+        <text x="462" y="480" fill="#1D4ED8" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Traditional</text>
+        <text x="588" y="480" fill="#B45309" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Fortune</text>
+
+        <rect x="471.55" y="502" width="158.9" height="26" rx="13" fill="#FFF7ED"/>
+        <text x="551" y="519" text-anchor="middle" fill="#9A3412" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">-10% profit vs trad</text>
+      </g>
+    
+
+      <g data-scenario="high-volume__high-liquidity__winner">
+        <rect x="732" y="224" width="314" height="310" rx="24" fill="#FFFDF8" stroke="#E7E0D4"/>
+        
+    <g>
+      <rect x="756" y="252" width="92.1" height="26" rx="13" fill="#DBEAFE"/>
+      <text x="768" y="269" fill="#1D4ED8" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">high volume</text>
+    </g>
+  
+        
+    <g>
+      <rect x="858" y="252" width="113.39999999999999" height="26" rx="13" fill="#DCFCE7"/>
+      <text x="870" y="269" fill="#166534" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">high liquidity</text>
+    </g>
+  
+        
+    <g>
+      <rect x="756" y="286" width="134.7" height="26" rx="13" fill="#FEF3C7"/>
+      <text x="768" y="303" fill="#92400E" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">crowded on winner</text>
+    </g>
+  
+
+        <rect x="806" y="401.570781073504" width="58" height="54.429218926495984" rx="16" fill="#2563EB"/>
+        <rect x="924" y="404.23491580593543" width="58" height="51.76508419406456" rx="16" fill="#B45309"/>
+
+        <text x="805" y="391.570781073504" fill="#1D4ED8" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.60x</text>
+        <text x="923" y="394.23491580593543" fill="#B45309" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.52x</text>
+
+        <text x="800" y="480" fill="#1D4ED8" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Traditional</text>
+        <text x="926" y="480" fill="#B45309" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Fortune</text>
+
+        <rect x="809.55" y="502" width="158.9" height="26" rx="13" fill="#FFF7ED"/>
+        <text x="889" y="519" text-anchor="middle" fill="#9A3412" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">-13% profit vs trad</text>
+      </g>
+    
+
+      <g data-scenario="high-volume__low-liquidity__winner">
+        <rect x="1070" y="224" width="314" height="310" rx="24" fill="#FFFDF8" stroke="#E7E0D4"/>
+        
+    <g>
+      <rect x="1094" y="252" width="92.1" height="26" rx="13" fill="#DBEAFE"/>
+      <text x="1106" y="269" fill="#1D4ED8" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">high volume</text>
+    </g>
+  
+        
+    <g>
+      <rect x="1196" y="252" width="106.3" height="26" rx="13" fill="#FFF7ED"/>
+      <text x="1208" y="269" fill="#C2410C" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">low liquidity</text>
+    </g>
+  
+        
+    <g>
+      <rect x="1094" y="286" width="134.7" height="26" rx="13" fill="#FEF3C7"/>
+      <text x="1106" y="303" fill="#92400E" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">crowded on winner</text>
+    </g>
+  
+
+        <rect x="1144" y="407.6266341069345" width="58" height="48.37336589306549" rx="16" fill="#2563EB"/>
+        <rect x="1262" y="409.2281256676345" width="58" height="46.771874332365485" rx="16" fill="#B45309"/>
+
+        <text x="1143" y="397.6266341069345" fill="#1D4ED8" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.42x</text>
+        <text x="1261" y="399.2281256676345" fill="#B45309" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.38x</text>
+
+        <text x="1138" y="480" fill="#1D4ED8" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Traditional</text>
+        <text x="1264" y="480" fill="#B45309" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Fortune</text>
+
+        <rect x="1147.55" y="502" width="158.9" height="26" rx="13" fill="#FFF7ED"/>
+        <text x="1227" y="519" text-anchor="middle" fill="#9A3412" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">-11% profit vs trad</text>
+      </g>
+    
+
+      <g data-scenario="low-volume__high-liquidity__balanced">
+        <rect x="56" y="558" width="314" height="310" rx="24" fill="#FFFDF8" stroke="#E7E0D4"/>
+        
+    <g>
+      <rect x="80" y="586" width="85" height="26" rx="13" fill="#F3F4F6"/>
+      <text x="92" y="603" fill="#475569" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">low volume</text>
+    </g>
+  
+        
+    <g>
+      <rect x="182" y="586" width="113.39999999999999" height="26" rx="13" fill="#DCFCE7"/>
+      <text x="194" y="603" fill="#166534" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">high liquidity</text>
+    </g>
+  
+        
+    <g>
+      <rect x="80" y="620" width="106.3" height="26" rx="13" fill="#E0F2FE"/>
+      <text x="92" y="637" fill="#075985" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">balanced flow</text>
+    </g>
+  
+
+        <rect x="130" y="723.5614914965324" width="58" height="66.43850850346756" rx="16" fill="#2563EB"/>
+        <rect x="248" y="722.3511336203318" width="58" height="67.64886637966823" rx="16" fill="#047857"/>
+
+        <text x="129" y="713.5614914965324" fill="#1D4ED8" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.95x</text>
+        <text x="247" y="712.3511336203318" fill="#047857" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.99x</text>
+
+        <text x="124" y="814" fill="#1D4ED8" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Traditional</text>
+        <text x="250" y="814" fill="#047857" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Fortune</text>
+
+        <rect x="137.1" y="836" width="151.8" height="26" rx="13" fill="#ECFDF5"/>
+        <text x="213" y="853" text-anchor="middle" fill="#065F46" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">+4% profit vs trad</text>
+      </g>
+    
+
+      <g data-scenario="low-volume__low-liquidity__balanced">
+        <rect x="394" y="558" width="314" height="310" rx="24" fill="#FFFDF8" stroke="#E7E0D4"/>
+        
+    <g>
+      <rect x="418" y="586" width="85" height="26" rx="13" fill="#F3F4F6"/>
+      <text x="430" y="603" fill="#475569" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">low volume</text>
+    </g>
+  
+        
+    <g>
+      <rect x="520" y="586" width="106.3" height="26" rx="13" fill="#FFF7ED"/>
+      <text x="532" y="603" fill="#C2410C" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">low liquidity</text>
+    </g>
+  
+        
+    <g>
+      <rect x="418" y="620" width="106.3" height="26" rx="13" fill="#E0F2FE"/>
+      <text x="430" y="637" fill="#075985" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">balanced flow</text>
+    </g>
+  
+
+        <rect x="468" y="724.8563583218183" width="58" height="65.14364167818161" rx="16" fill="#2563EB"/>
+        <rect x="586" y="722.5555604698668" width="58" height="67.44443953013317" rx="16" fill="#047857"/>
+
+        <text x="467" y="714.8563583218183" fill="#1D4ED8" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.92x</text>
+        <text x="585" y="712.5555604698668" fill="#047857" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.98x</text>
+
+        <text x="462" y="814" fill="#1D4ED8" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Traditional</text>
+        <text x="588" y="814" fill="#047857" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Fortune</text>
+
+        <rect x="475.1" y="836" width="151.8" height="26" rx="13" fill="#ECFDF5"/>
+        <text x="551" y="853" text-anchor="middle" fill="#065F46" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">+7% profit vs trad</text>
+      </g>
+    
+
+      <g data-scenario="high-volume__high-liquidity__balanced">
+        <rect x="732" y="558" width="314" height="310" rx="24" fill="#FFFDF8" stroke="#E7E0D4"/>
+        
+    <g>
+      <rect x="756" y="586" width="92.1" height="26" rx="13" fill="#DBEAFE"/>
+      <text x="768" y="603" fill="#1D4ED8" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">high volume</text>
+    </g>
+  
+        
+    <g>
+      <rect x="858" y="586" width="113.39999999999999" height="26" rx="13" fill="#DCFCE7"/>
+      <text x="870" y="603" fill="#166534" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">high liquidity</text>
+    </g>
+  
+        
+    <g>
+      <rect x="756" y="620" width="106.3" height="26" rx="13" fill="#E0F2FE"/>
+      <text x="768" y="637" fill="#075985" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">balanced flow</text>
+    </g>
+  
+
+        <rect x="806" y="723.5663561091175" width="58" height="66.43364389088251" rx="16" fill="#2563EB"/>
+        <rect x="924" y="722.6811658700983" width="58" height="67.31883412990167" rx="16" fill="#047857"/>
+
+        <text x="805" y="713.5663561091175" fill="#1D4ED8" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.95x</text>
+        <text x="923" y="712.6811658700983" fill="#047857" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.98x</text>
+
+        <text x="800" y="814" fill="#1D4ED8" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Traditional</text>
+        <text x="926" y="814" fill="#047857" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Fortune</text>
+
+        <rect x="813.1" y="836" width="151.8" height="26" rx="13" fill="#ECFDF5"/>
+        <text x="889" y="853" text-anchor="middle" fill="#065F46" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">+3% profit vs trad</text>
+      </g>
+    
+
+      <g data-scenario="high-volume__low-liquidity__balanced">
+        <rect x="1070" y="558" width="314" height="310" rx="24" fill="#FFFDF8" stroke="#E7E0D4"/>
+        
+    <g>
+      <rect x="1094" y="586" width="92.1" height="26" rx="13" fill="#DBEAFE"/>
+      <text x="1106" y="603" fill="#1D4ED8" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">high volume</text>
+    </g>
+  
+        
+    <g>
+      <rect x="1196" y="586" width="106.3" height="26" rx="13" fill="#FFF7ED"/>
+      <text x="1208" y="603" fill="#C2410C" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">low liquidity</text>
+    </g>
+  
+        
+    <g>
+      <rect x="1094" y="620" width="106.3" height="26" rx="13" fill="#E0F2FE"/>
+      <text x="1106" y="637" fill="#075985" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">balanced flow</text>
+    </g>
+  
+
+        <rect x="1144" y="724.8258256916436" width="58" height="65.17417430835641" rx="16" fill="#2563EB"/>
+        <rect x="1262" y="723.2199727011913" width="58" height="66.78002729880868" rx="16" fill="#047857"/>
+
+        <text x="1143" y="714.8258256916436" fill="#1D4ED8" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.92x</text>
+        <text x="1261" y="713.2199727011913" fill="#047857" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">1.96x</text>
+
+        <text x="1138" y="814" fill="#1D4ED8" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Traditional</text>
+        <text x="1264" y="814" fill="#047857" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Fortune</text>
+
+        <rect x="1151.1" y="836" width="151.8" height="26" rx="13" fill="#ECFDF5"/>
+        <text x="1227" y="853" text-anchor="middle" fill="#065F46" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">+5% profit vs trad</text>
+      </g>
+    
+
+      <g data-scenario="low-volume__high-liquidity__loser">
+        <rect x="56" y="892" width="314" height="310" rx="24" fill="#FFFDF8" stroke="#E7E0D4"/>
+        
+    <g>
+      <rect x="80" y="920" width="85" height="26" rx="13" fill="#F3F4F6"/>
+      <text x="92" y="937" fill="#475569" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">low volume</text>
+    </g>
+  
+        
+    <g>
+      <rect x="182" y="920" width="113.39999999999999" height="26" rx="13" fill="#DCFCE7"/>
+      <text x="194" y="937" fill="#166534" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">high liquidity</text>
+    </g>
+  
+        
+    <g>
+      <rect x="80" y="954" width="127.6" height="26" rx="13" fill="#ECFDF5"/>
+      <text x="92" y="971" fill="#047857" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">crowded on loser</text>
+    </g>
+  
+
+        <rect x="130" y="1039.361564632403" width="58" height="84.63843536759686" rx="16" fill="#2563EB"/>
+        <rect x="248" y="1025.7715861409438" width="58" height="98.2284138590562" rx="16" fill="#047857"/>
+
+        <text x="129" y="1029.361564632403" fill="#1D4ED8" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">2.49x</text>
+        <text x="247" y="1015.7715861409438" fill="#047857" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">2.89x</text>
+
+        <text x="124" y="1148" fill="#1D4ED8" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Traditional</text>
+        <text x="250" y="1148" fill="#047857" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Fortune</text>
+
+        <rect x="133.55" y="1170" width="158.9" height="26" rx="13" fill="#ECFDF5"/>
+        <text x="213" y="1187" text-anchor="middle" fill="#065F46" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">+27% profit vs trad</text>
+      </g>
+    
+
+      <g data-scenario="low-volume__low-liquidity__loser">
+        <rect x="394" y="892" width="314" height="310" rx="24" fill="#FFFDF8" stroke="#E7E0D4"/>
+        
+    <g>
+      <rect x="418" y="920" width="85" height="26" rx="13" fill="#F3F4F6"/>
+      <text x="430" y="937" fill="#475569" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">low volume</text>
+    </g>
+  
+        
+    <g>
+      <rect x="520" y="920" width="106.3" height="26" rx="13" fill="#FFF7ED"/>
+      <text x="532" y="937" fill="#C2410C" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">low liquidity</text>
+    </g>
+  
+        
+    <g>
+      <rect x="418" y="954" width="127.6" height="26" rx="13" fill="#ECFDF5"/>
+      <text x="430" y="971" fill="#047857" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">crowded on loser</text>
+    </g>
+  
+
+        <rect x="468" y="1026.0530785634262" width="58" height="97.94692143657383" rx="16" fill="#2563EB"/>
+        <rect x="586" y="1002.8611790562147" width="58" height="121.13882094378532" rx="16" fill="#047857"/>
+
+        <text x="467" y="1016.0530785634262" fill="#1D4ED8" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">2.88x</text>
+        <text x="585" y="992.8611790562147" fill="#047857" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">3.56x</text>
+
+        <text x="462" y="1148" fill="#1D4ED8" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Traditional</text>
+        <text x="588" y="1148" fill="#047857" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Fortune</text>
+
+        <rect x="471.55" y="1170" width="158.9" height="26" rx="13" fill="#ECFDF5"/>
+        <text x="551" y="1187" text-anchor="middle" fill="#065F46" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">+36% profit vs trad</text>
+      </g>
+    
+
+      <g data-scenario="high-volume__high-liquidity__loser">
+        <rect x="732" y="892" width="314" height="310" rx="24" fill="#FFFDF8" stroke="#E7E0D4"/>
+        
+    <g>
+      <rect x="756" y="920" width="92.1" height="26" rx="13" fill="#DBEAFE"/>
+      <text x="768" y="937" fill="#1D4ED8" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">high volume</text>
+    </g>
+  
+        
+    <g>
+      <rect x="858" y="920" width="113.39999999999999" height="26" rx="13" fill="#DCFCE7"/>
+      <text x="870" y="937" fill="#166534" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">high liquidity</text>
+    </g>
+  
+        
+    <g>
+      <rect x="756" y="954" width="127.6" height="26" rx="13" fill="#ECFDF5"/>
+      <text x="768" y="971" fill="#047857" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">crowded on loser</text>
+    </g>
+  
+
+        <rect x="806" y="1039.3681245727407" width="58" height="84.63187542725916" rx="16" fill="#2563EB"/>
+        <rect x="924" y="1025.890184563992" width="58" height="98.1098154360078" rx="16" fill="#047857"/>
+
+        <text x="805" y="1029.3681245727407" fill="#1D4ED8" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">2.49x</text>
+        <text x="923" y="1015.8901845639921" fill="#047857" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">2.89x</text>
+
+        <text x="800" y="1148" fill="#1D4ED8" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Traditional</text>
+        <text x="926" y="1148" fill="#047857" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Fortune</text>
+
+        <rect x="809.55" y="1170" width="158.9" height="26" rx="13" fill="#ECFDF5"/>
+        <text x="889" y="1187" text-anchor="middle" fill="#065F46" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">+26% profit vs trad</text>
+      </g>
+    
+
+      <g data-scenario="high-volume__low-liquidity__loser">
+        <rect x="1070" y="892" width="314" height="310" rx="24" fill="#FFFDF8" stroke="#E7E0D4"/>
+        
+    <g>
+      <rect x="1094" y="920" width="92.1" height="26" rx="13" fill="#DBEAFE"/>
+      <text x="1106" y="937" fill="#1D4ED8" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">high volume</text>
+    </g>
+  
+        
+    <g>
+      <rect x="1196" y="920" width="106.3" height="26" rx="13" fill="#FFF7ED"/>
+      <text x="1208" y="937" fill="#C2410C" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">low liquidity</text>
+    </g>
+  
+        
+    <g>
+      <rect x="1094" y="954" width="127.6" height="26" rx="13" fill="#ECFDF5"/>
+      <text x="1106" y="971" fill="#047857" font-size="12" font-weight="600" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">crowded on loser</text>
+    </g>
+  
+
+        <rect x="1144" y="1026.7481749248213" width="58" height="97.25182507517876" rx="16" fill="#2563EB"/>
+        <rect x="1262" y="1005.0364018057921" width="58" height="118.96359819420783" rx="16" fill="#047857"/>
+
+        <text x="1143" y="1016.7481749248213" fill="#1D4ED8" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">2.86x</text>
+        <text x="1261" y="995.0364018057921" fill="#047857" font-size="13" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">3.50x</text>
+
+        <text x="1138" y="1148" fill="#1D4ED8" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Traditional</text>
+        <text x="1264" y="1148" fill="#047857" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">Fortune</text>
+
+        <rect x="1147.55" y="1170" width="158.9" height="26" rx="13" fill="#ECFDF5"/>
+        <text x="1227" y="1187" text-anchor="middle" fill="#065F46" font-size="12" font-weight="700" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">+34% profit vs trad</text>
+      </g>
+    
+
+  <text x="56" y="1258" fill="#6B7280" font-size="13" font-weight="400" font-family="'IBM Plex Sans', 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif">
+    Model note: each card runs 128 random market simulations, summarizes median winner returns, and derives the pill from winner profit (net of protocol fees) versus a fee-free traditional baseline.
+  </text>
+</svg>

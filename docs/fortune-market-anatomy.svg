@@ -1,0 +1,103 @@
+<svg width="1200" height="540" viewBox="0 0 1200 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F4EC"/>
+      <stop offset="1" stop-color="#EEF5F1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .title { font: 700 30px Helvetica, Arial, sans-serif; fill: #14213D; }
+      .subtitle { font: 400 15px Helvetica, Arial, sans-serif; fill: #475569; }
+      .step { font: 700 12px Helvetica, Arial, sans-serif; fill: #64748B; letter-spacing: 0.08em; text-transform: uppercase; }
+      .card-title { font: 700 17px Helvetica, Arial, sans-serif; fill: #1F2937; }
+      .body { font: 400 13px Helvetica, Arial, sans-serif; fill: #475569; }
+      .tiny { font: 600 12px Helvetica, Arial, sans-serif; fill: #334155; }
+      .pill { font: 700 12px Helvetica, Arial, sans-serif; fill: #0F172A; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="540" rx="28" fill="url(#bg)"/>
+  <rect x="20" y="20" width="1160" height="500" rx="24" fill="#FCFAF5" stroke="#E7E0D4"/>
+
+  <text x="56" y="72" class="title">One market, two pools, one prize pool</text>
+  <text x="56" y="102" class="subtitle">Fortune launches without platform-owned USDC inventory and trades through</text>
+  <text x="56" y="124" class="subtitle">two Uniswap v4 pools before winners split the remaining USDC pro rata.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="56" y="158" width="1088" height="322" rx="28" fill="#FFFDF8"/>
+  </g>
+
+  <g>
+    <rect x="80" y="194" width="180" height="224" rx="22" fill="#FFF7ED" stroke="#FED7AA" stroke-width="2"/>
+    <text x="104" y="226" class="step">Step 1</text>
+    <text x="104" y="260" class="card-title">Create market</text>
+    <text x="104" y="290" class="body">Factory deploys the</text>
+    <text x="104" y="310" class="body">market contract and</text>
+    <text x="104" y="330" class="body">mints fixed YES and NO.</text>
+    <rect x="104" y="358" width="58" height="28" rx="14" fill="#FDE68A"/>
+    <rect x="170" y="358" width="58" height="28" rx="14" fill="#BFDBFE"/>
+    <text x="122" y="376" class="pill">YES</text>
+    <text x="190" y="376" class="pill">NO</text>
+  </g>
+
+  <g>
+    <rect x="290" y="194" width="180" height="224" rx="22" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="2"/>
+    <text x="314" y="226" class="step">Step 2</text>
+    <text x="314" y="260" class="card-title">Seed two pools</text>
+    <text x="314" y="290" class="body">Market deposits</text>
+    <text x="314" y="310" class="body">single-sided outcome</text>
+    <text x="314" y="330" class="body">inventory into both pools.</text>
+    <rect x="314" y="358" width="132" height="24" rx="12" fill="#DBEAFE"/>
+    <rect x="314" y="390" width="132" height="24" rx="12" fill="#E0F2FE"/>
+    <text x="332" y="374" class="tiny">YES / USDC pool</text>
+    <text x="336" y="406" class="tiny">NO / USDC pool</text>
+  </g>
+
+  <g>
+    <rect x="500" y="194" width="180" height="224" rx="22" fill="#ECFDF5" stroke="#BBF7D0" stroke-width="2"/>
+    <text x="524" y="226" class="step">Step 3</text>
+    <text x="524" y="260" class="card-title">Trade</text>
+    <text x="524" y="290" class="body">Users swap USDC</text>
+    <text x="524" y="310" class="body">for YES or NO</text>
+    <text x="524" y="330" class="body">through Uniswap v4.</text>
+    <text x="524" y="350" class="body">Hook enforces rules.</text>
+    <circle cx="554" cy="380" r="22" fill="#DCFCE7"/>
+    <circle cx="626" cy="380" r="22" fill="#D1FAE5"/>
+    <text x="540" y="385" class="pill">USDC</text>
+    <text x="612" y="385" class="pill">AMM</text>
+  </g>
+
+  <g>
+    <rect x="710" y="194" width="180" height="224" rx="22" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="2"/>
+    <text x="734" y="226" class="step">Step 4</text>
+    <text x="734" y="260" class="card-title">Resolve</text>
+    <text x="734" y="290" class="body">Resolver closes</text>
+    <text x="734" y="310" class="body">both pools, removes</text>
+    <text x="734" y="330" class="body">liquidity, and locks</text>
+    <text x="734" y="350" class="body">the USDC prize pool.</text>
+    <rect x="734" y="366" width="132" height="34" rx="17" fill="#EDE9FE"/>
+    <text x="762" y="387" class="pill">Prize pool</text>
+  </g>
+
+  <g>
+    <rect x="920" y="194" width="180" height="224" rx="22" fill="#FEF2F2" stroke="#FECACA" stroke-width="2"/>
+    <text x="944" y="226" class="step">Step 5</text>
+    <text x="944" y="260" class="card-title">Claim</text>
+    <text x="944" y="290" class="body">Winning holders burn</text>
+    <text x="944" y="310" class="body">tokens and redeem</text>
+    <text x="944" y="330" class="body">pro-rata USDC.</text>
+    <rect x="944" y="358" width="132" height="34" rx="17" fill="#FEE2E2"/>
+    <text x="968" y="379" class="pill">Burn -&gt; USDC</text>
+  </g>
+
+  <path d="M264 306H286" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M286 306L274 299V313L286 306Z" fill="#94A3B8"/>
+  <path d="M474 306H496" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M496 306L484 299V313L496 306Z" fill="#94A3B8"/>
+  <path d="M684 306H706" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M706 306L694 299V313L706 306Z" fill="#94A3B8"/>
+  <path d="M894 306H916" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M916 306L904 299V313L916 306Z" fill="#94A3B8"/>
+</svg>

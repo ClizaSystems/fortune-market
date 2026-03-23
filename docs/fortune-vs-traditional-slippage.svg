@@ -1,0 +1,62 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F4EC"/>
+      <stop offset="1" stop-color="#EEF5F1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .title { font: 700 30px Helvetica, Arial, sans-serif; fill: #14213D; }
+      .subtitle { font: 400 16px Helvetica, Arial, sans-serif; fill: #475569; }
+      .header { font: 700 13px Helvetica, Arial, sans-serif; fill: #64748B; letter-spacing: 0.04em; text-transform: uppercase; }
+      .row-title { font: 700 18px Helvetica, Arial, sans-serif; fill: #1F2937; }
+      .row-note { font: 400 13px Helvetica, Arial, sans-serif; fill: #64748B; }
+      .value { font: 700 24px Helvetica, Arial, sans-serif; fill: #14213D; }
+      .axis { font: 600 12px Helvetica, Arial, sans-serif; fill: #64748B; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="430" rx="28" fill="url(#bg)"/>
+  <rect x="20" y="20" width="1160" height="390" rx="24" fill="#FCFAF5" stroke="#E7E0D4"/>
+
+  <text x="56" y="74" class="title">Fortune Market vs Traditional Prediction Markets</text>
+  <text x="56" y="102" class="subtitle">Shared execution-cost scale from 0% to 3%.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="56" y="138" width="1088" height="258" rx="24" fill="#FFFDF8"/>
+  </g>
+
+  <text x="88" y="170" class="header">Market</text>
+  <text x="540" y="170" class="header" text-anchor="end">Cost</text>
+  <text x="576" y="170" class="header">Comparison scale</text>
+
+  <text x="88" y="204" class="row-title">Fortune Market</text>
+  <text x="88" y="224" class="row-note">0.01% for a $5M order</text>
+  <text x="540" y="212" class="value" text-anchor="end" fill="#047857">0.01%</text>
+  <rect x="576" y="190" width="500" height="22" fill="#E2E8F0"/>
+  <rect x="576" y="190" width="2" height="22" fill="#047857"/>
+
+  <text x="88" y="268" class="row-title">Traditional liquid books</text>
+  <text x="88" y="288" class="row-note">Small marketable order</text>
+  <text x="540" y="276" class="value" text-anchor="end" fill="#2563EB">0.75%</text>
+  <rect x="576" y="254" width="500" height="22" fill="#E2E8F0"/>
+  <rect x="576" y="254" width="125" height="22" fill="#2563EB"/>
+
+  <text x="88" y="332" class="row-title">Traditional illiquid books</text>
+  <text x="88" y="352" class="row-note">Small marketable order</text>
+  <text x="540" y="340" class="value" text-anchor="end" fill="#C2410C">3%</text>
+  <rect x="576" y="318" width="500" height="22" fill="#E2E8F0"/>
+  <rect x="576" y="318" width="500" height="22" fill="#C2410C"/>
+
+  <line x1="576" y1="364" x2="1076" y2="364" stroke="#CBD5E1" stroke-width="2"/>
+  <line x1="576" y1="356" x2="576" y2="372" stroke="#94A3B8" stroke-width="2"/>
+  <line x1="742.667" y1="356" x2="742.667" y2="372" stroke="#94A3B8" stroke-width="2"/>
+  <line x1="909.333" y1="356" x2="909.333" y2="372" stroke="#94A3B8" stroke-width="2"/>
+  <line x1="1076" y1="356" x2="1076" y2="372" stroke="#94A3B8" stroke-width="2"/>
+  <text x="568" y="388" class="axis">0%</text>
+  <text x="730" y="388" class="axis">1%</text>
+  <text x="897" y="388" class="axis">2%</text>
+  <text x="1060" y="388" class="axis">3%</text>
+</svg>

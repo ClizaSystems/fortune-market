@@ -1,0 +1,76 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F4EC"/>
+      <stop offset="1" stop-color="#EEF5F1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .title { font: 700 34px Helvetica, Arial, sans-serif; fill: #14213D; }
+      .subtitle { font: 400 16px Helvetica, Arial, sans-serif; fill: #334155; }
+      .panel-title { font: 700 18px Helvetica, Arial, sans-serif; fill: #14213D; }
+      .label { font: 600 14px Helvetica, Arial, sans-serif; fill: #1F2937; }
+      .small { font: 400 13px Helvetica, Arial, sans-serif; fill: #475569; }
+      .tiny { font: 400 12px Helvetica, Arial, sans-serif; fill: #64748B; }
+      .formula { font: 600 15px 'Courier New', monospace; fill: #0F172A; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+
+  <text x="72" y="74" class="title">Minimal settlement shapes</text>
+  <text x="72" y="104" class="subtitle">Traditional is fixed redemption. Pari-mutuel and Fortune both redeem as pool divided by outstanding winners.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="60" y="140" width="680" height="560" rx="28" fill="#FFFCF5"/>
+    <rect x="780" y="140" width="360" height="560" rx="28" fill="#FFFCF5"/>
+  </g>
+
+  <text x="92" y="184" class="panel-title">Settlement shape</text>
+  <text x="810" y="184" class="panel-title">What the pool is</text>
+
+  <line x1="150" y1="620" x2="660" y2="620" stroke="#334155" stroke-width="2.5"/>
+  <line x1="150" y1="620" x2="150" y2="240" stroke="#334155" stroke-width="2.5"/>
+  <path d="M660 620L649 614L649 626L660 620Z" fill="#334155"/>
+  <path d="M150 240L144 251L156 251L150 240Z" fill="#334155"/>
+
+  <text x="516" y="652" class="small">Winning units outstanding (W)</text>
+  <text x="34" y="310" class="small" transform="rotate(-90 34 310)">Payout per winning unit</text>
+
+  <line x1="150" y1="320" x2="660" y2="320" stroke="#1D4ED8" stroke-width="5"/>
+  <text x="452" y="302" class="label" fill="#1D4ED8">Traditional fixed-payout</text>
+  <text x="452" y="338" class="formula" fill="#1D4ED8">y = 1</text>
+
+  <path d="M170 270 C235 330 315 410 390 470 C445 515 520 552 640 590" stroke="#0F766E" stroke-width="5" stroke-linecap="round"/>
+
+  <line x1="432" y1="450" x2="532" y2="450" stroke="#0F766E" stroke-width="4"/>
+  <text x="544" y="455" class="label" fill="#0F766E">Pooled settlement</text>
+  <text x="544" y="480" class="formula" fill="#0F766E">y = pool / W</text>
+  <text x="544" y="504" class="tiny">This is the same redemption shape for pari-mutuel and Fortune.</text>
+
+  <text x="544" y="548" class="label" fill="#15803D">Pari-mutuel</text>
+  <text x="544" y="572" class="formula" fill="#15803D">pool = P</text>
+  <text x="544" y="606" class="label" fill="#D97706">Fortune Market</text>
+  <text x="544" y="630" class="formula" fill="#D97706">pool = R</text>
+
+  <text x="176" y="256" class="tiny">Fewer winners, larger payout each</text>
+  <text x="452" y="608" class="tiny">More winners, smaller payout each</text>
+
+  <rect x="810" y="220" width="300" height="150" rx="20" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="2"/>
+  <text x="836" y="258" class="label" fill="#1D4ED8">Traditional fixed-payout</text>
+  <text x="836" y="292" class="small">Each winning share redeems at a</text>
+  <text x="836" y="314" class="small">predefined amount.</text>
+  <text x="836" y="348" class="formula" fill="#1D4ED8">fixed redemption</text>
+
+  <rect x="810" y="400" width="300" height="118" rx="20" fill="#ECFDF5" stroke="#BBF7D0" stroke-width="2"/>
+  <text x="836" y="438" class="label" fill="#15803D">Pari-mutuel</text>
+  <text x="836" y="472" class="small">Net betting pool after take</text>
+  <text x="836" y="494" class="small">is split among winners.</text>
+
+  <rect x="810" y="542" width="300" height="118" rx="20" fill="#FFF7ED" stroke="#FED7AA" stroke-width="2"/>
+  <text x="836" y="580" class="label" fill="#D97706">Fortune Market</text>
+  <text x="836" y="614" class="small">Residual USDC after AMM unwind</text>
+  <text x="836" y="636" class="small">and fee routing is split among winners.</text>
+</svg>
