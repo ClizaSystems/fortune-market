@@ -3,7 +3,7 @@
 Using Cursor, Codex or Claude Code?
 
 ```bash
-git pull https://github.com/ClizaSystems/fortune-market and launch a market for me
+git pull https://github.com/ClizaSystems/fortune-market and launch a market
 ```
 
 <p align="center">
