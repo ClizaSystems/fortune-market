@@ -19,16 +19,6 @@ The point is structural: there is no platform-owned liquidity requirement, no st
 
 If the crowd is wrong, winners inherit more of the market's flow. If the crowd is right, Fortune can underperform a traditional fixed-payout market. That is the design bet.
 
-## Star History
-
-<a href="https://www.star-history.com/?repos=ClizaSystems%2Ffortune-market&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=ClizaSystems/fortune-market&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=ClizaSystems/fortune-market&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=ClizaSystems/fortune-market&type=date&legend=top-left" />
- </picture>
-</a>
-
 ## Launch prediction markets like memes
 
 **Turn any idea into a market, then let Uniswap v4 handle pooling, price discovery, and execution.**
