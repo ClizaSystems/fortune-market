@@ -1,5 +1,9 @@
 # Fortune Market
 
+<p align="center">
+  <img src="docs/fortune-market.png" alt="Fortune Market" width="1200" />
+</p>
+
 Foundry workspace for the Fortune Market contracts and Base fork tests.
 
 ## Quick Start
@@ -92,3 +96,7 @@ Run your own review before using this in production:
 
 - [ai-web3-security](https://github.com/pashov/ai-web3-security)
 - manual audits
+
+<p align="center">
+  <img src="docs/cliza.png" alt="Cliza artwork" width="420" />
+</p>
